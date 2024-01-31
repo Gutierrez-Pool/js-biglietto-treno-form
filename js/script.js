@@ -31,6 +31,6 @@ buttonElement.addEventListener("click",
         finalPrice = finalPrice.toFixed(2);
 
 
-        resultElement.innerHTML += `Il prezzo del biglietto e di ${finalPrice}`;
+        resultElement.innerHTML += `Il prezzo del biglietto e di $${finalPrice}`;
     }
 )
